@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_xs"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="显示通知栏"
+        />
+
+    <Button
+        android:id="@+id/button_big"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="显示大试图风格通知栏（4.1以上才生效）" />
+
+    <Button
+        android:id="@+id/button_changzhu"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="显示常驻通知栏"
+         />
+
+    <Button
+        android:id="@+id/button_zhidingactivity"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="显示通知 点击跳转到指定Activity"
+        />
+
+    <Button
+        android:id="@+id/button_open"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="显示通知点击打开APK"
+        />
+
+    <Button
+        android:id="@+id/button_clearzhiding"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="清除指定通知"
+         />
+
+    <Button
+        android:id="@+id/button_call"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="清除所有通知"
+         />
+
+    <Button
+        android:id="@+id/button_zidingyi"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="显示自定义通知栏"
+       />
+
+    <Button
+        android:id="@+id/button_jindutiao"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="显示带进度条通知栏"
+        />
+
+</LinearLayout>
